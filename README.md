@@ -34,9 +34,9 @@ Integration of different tools to collect, process, store and display informatio
 Grafana has been connected to Prometheus and different dashboards have been created: 
 
 <img src="./screenshots/dashboard1.jpg" width="90%"></img>
-<img src="./screenshots/dashboard2.jpg" width="45%"></img>
-<img src="./screenshots/dashboard4.jpg" width="45%"></img>
 <img src="./screenshots/dashboard3.jpg" width="45%"></img>
+<img src="./screenshots/dashboard4.jpg" width="45%"></img>
+<img src="./screenshots/dashboard2.jpg" width="45%"></img>
 <img src="./screenshots/dashboard5.jpg" width="45%"></img>
 <img src="./screenshots/dashboard6.jpg" width="45%"></img>
 <img src="./screenshots/dashboard7.jpg" width="45%"></img>
