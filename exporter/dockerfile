@@ -1,0 +1,13 @@
+FROM python:3.10-alpine
+
+RUN mkdir /code
+WORKDIR /code
+COPY requirements.txt ./
+COPY power_exporter.py ./
+RUN pip install --no-cache-dir -r requirements.txt
+
+EXPOSE 9101
+ENV EXPORTER_PORT=9101
+ENV KAFKA_SERVER=172.17.0.1:9092
+
+CMD ["python", "./power_exporter.py"]
