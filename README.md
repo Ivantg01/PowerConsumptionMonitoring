@@ -5,7 +5,7 @@ This project is an example how to use Cloud and Virtualization technologies for 
 Integration of different tools to collect, process, store and display information regarding the power consumption of OLTs. An OLT is a Telecom network equipment used to deliver fiber to the home broadband services.
 
 ## Tools used:
-![tools](https://skillicons.dev/icons?i=kafka,prometheus,grafana,docker) ![tools](https://skillicons.dev/icons?i=prometheus)
+![tools](https://skillicons.dev/icons?i=kafka,prometheus,grafana,docker) 
 * Kafka to send and receive power consumption metrics in JSON format  
 * Prometheus to store the collected information as time series 
 * Grafana to build and display multiple dashboard 
