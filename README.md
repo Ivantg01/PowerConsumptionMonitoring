@@ -2,7 +2,7 @@
 
 This project is an example how to use Cloud and Virtualization technologies for system observability.
 
-Integration of different tools to collect, process, store and display information regarding the power consumption of OLTs. An OLT is a Telecom equipment used to deliver fiber to the home services, such as internet, video or telephony.
+Integration of different tools to collect, process, store and display information regarding the power consumption of OLTs. An OLT is a Telecom network equipment used to deliver fiber to the home broadband services.
 
 ## Tools used:
 * Kafka to send and receive power consumption metrics in JSON format ![tools](https://skillicons.dev/icons?i=kafka) 
