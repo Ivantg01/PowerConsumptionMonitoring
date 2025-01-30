@@ -1,0 +1,9 @@
+global:
+  scrape_interval: 5m
+scrape_configs:
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+  - job_name: 'power'
+    static_configs:
+      - targets: ['172.17.0.1:9101']
