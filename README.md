@@ -13,22 +13,22 @@ This project uses:
 
 ## Folder structure:
 * ```kafka```: bus to send and consume power consumption metrics
-  * ```docker-compose-kafka-kraft-sasl.yml```: YAML used by docker compose to create the kafka container
-  * ```kafka_server_jaas.conf```: Kafka configuration file for SASL credentials
-  * ```sasl_server.properties```: Main Kafka-Kraft configuration file with SASL
+  * ```docker-compose-kafka-kraft-sasl.yml```: YAML used by docker compose to create the kafka container.
+  * ```kafka_server_jaas.conf```: Kafka configuration file for SASL credentials.
+  * ```sasl_server.properties```: Main Kafka-Kraft configuration file with SASL.
  
 * ```simulator```: metric generator
-  * ```producer_sasl_energy.py```: Python program that emulates the generation of power consumption metrics from multiple elements
-  * ```example.json```: example of a power consumption metric in JSON format
+  * ```producer_sasl_energy.py```: Python program that emulates the generation of power consumption metrics from multiple elements.
+  * ```example.json```: example of a power consumption metric in JSON format.
 
 *  ```prometheus```: docker definitions for Prometheus and Grafana
-  * ```docker_compose.yml```: YAML used by docker compose to create Prometeus and Grafana containers
-  * ```prometheus.yml```: YAML used by Prometheus as its default configuration
+  * ```docker_compose.yml```: YAML used by docker compose to create Prometeus and Grafana containers.
+  * ```prometheus.yml```: YAML used by Prometheus as its default configuration.
 
 * ```exporter```: program to 
-  * power_exporter.py: Python program to implement the specific Prometheus exporter to collect metric to Kafka and export them to Prometheus
+  * power_exporter.py: Python program to implement the specific Prometheus exporter to collect metric to Kafka and export them to Prometheus.
   * requirements.txt: file with the Python libs used by power_exporter.py, basically Kafka and Prometheus client libs.
-  * dockerfile: file with the definition of the container for the Prometheus exporter used by Prometheus to collect metrics
+  * dockerfile: file with the definition of the container for the Prometheus exporter used by Prometheus to collect metrics.
   * docker_compose.yml: YAML used by docker to create the container of the Prometheus exporter.
    
 ## Grafana screenshots 
