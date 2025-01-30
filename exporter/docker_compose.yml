@@ -1,0 +1,13 @@
+services:
+  power_exporter:
+    build: .
+    image: "exporters/power_exporter"
+    container_name: power_exporter
+    hostname: power
+    network_mode: host
+    pid: host
+    restart: unless-stopped
+    environment:
+      KAFKA_TOPIC: 'Power'
+      KAFKA_SERVER: '172.17.0.1:9092'
+      EXPORTER_PORT: 9101
