@@ -1,0 +1,10 @@
+{
+    "time-collected": "2025-01-31T17:42:32.019Z",
+    "resource-id": "e21ad8a1-4dc8-8ff3-b686-22975c9ac6b1",
+    "ne-name": "node_1",
+    "ne-ip-address": "192.168.0.1",
+    "current-power": "707850.0",
+    "energy-consumption": "176962.5",
+    "onu-number": "103",
+    "per-onu-energy-consumption": "1718"
+}
